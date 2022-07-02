@@ -20,7 +20,7 @@
 // | TAB   |  Q  |  W  |   E   |  R  |  T  |   6   |           ---        |  7    |  Y    |  U    |  I    |  O   | P  |     -     |
 // | CAPS  |  A  |  S  |   D   |  F  |  G  |   [   |           ---        |  ]    |  H    |  J    |  K    |  L   | ;  |    ENTER  |
 // | SHIFT |  Z  |  X  |   C   |  V  |  B  |  DEL  |  HOME   | --- | PRINT| END   |  N    |  M    |  ,    |  .   | /  | SHFT(RET) |
-// | CRTL  | ALT | LEFT| RIGHT |    PGUP    | SPACE | ENTER  | --- | ENTER| SPACE |     PGDOWN    |  UP   | DOWN | ~  |    DEL    |
+// | CRTL  | ALT | LEFT| RIGHT |    PGUP   | SPACE | ENTER   | --- | ENTER| SPACE |     PGDOWN    |  UP   | DOWN | ~  |    DEL    |
             bindings = <
    &kp ESC   &kp N1   &kp N2   &kp N3 &kp N4   &kp N5                                           &kp N8    &kp N9 &kp N0    &kp MINUS &kp EQUAL &kp BSPC
    &kp TAB   &kp Q    &kp W    &kp E  &kp R    &kp T  &kp N6                          &kp N7    &kp Y     &kp U  &kp I     &kp O     &kp P     &kp BSLH
