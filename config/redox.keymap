@@ -39,7 +39,7 @@
 // |       |     |     | BT CLR|BT_NXT |     |       |     | --- | PG_UP|PG_DN|     |     |      |      |     |       |
 // |       |     |     |       |             |       |     | --- |      |     |           |      |      |     |       |
             bindings = <
-   &trans  &kp F1    &kp2      &kp F3     &kp F4     &trans                                       &kp F8    &kp F9    &kp F10   &kp F11   &kp F12  &trans
+   &trans  &kp F1    &kp F2    &kp F3     &kp F4     &trans                                       &kp F8    &kp F9    &kp F10   &kp F11   &kp F12  &trans
    &trans  &kp N1    &kp N2    &kp N3     &trans     &trans    &kp F6                   &kp F7    &trans    &trans    &trans    &trans    &trans   &trans
    &trans  &trans    &trans    &trans     &trans     &trans    &trans                   &trans    &trans    &trans    &trans    &trans    &trans   &trans
    &trans  &trans    &trans    &bt BT_CLR &bt BT_NXT &trans    &trans &trans  &kp PG_UP &kp PG_DN &trans    &trans    &trans    &trans    &trans   &trans
