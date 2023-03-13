@@ -34,16 +34,16 @@
         lower_layer {
 // --------------------------------------------------------------------------------------------------------------------------
 // |       |  F1 |  F2 |   F3  |   F4  |  F5 |               ---              |  F8 |  F9 |  F10 |  F11 | F12 |       |
-// |       |  1  |  2  |   3   |       |     |  F6   |       ---        | F7  |     |     |      |      |     |       |
+// |       | BT1 | BT2 |  BT3  |  BT4  | BT5 |  F6   |       ---        | F7  |     |     |      |      |Play |       |
 // |       |     |     |       |       |     |       |       ---        |     |     |     |      |      |     |       |
-// |       |     |     | BT CLR|BT_NXT |     |       |     | --- | PG_UP|PG_DN|     |     |      |      |     |       |
-// |       |     |     |       |             |       |     | --- |      |     |           |      |      |     |       |
+// |       |     |BTPRV| BT CLR|BT_NXT |     |       |     | --- | PG_UP|PG_DN|     |     |      |      |     |       |
+// |       |     |     |PreSong|  NxtSong    |       |     | --- |      |     |           |VolUp |VolDn |     |       |
             bindings = <
-   &trans  &kp F1    &kp F2    &kp F3     &kp F4     &kp F5                                       &kp F8    &kp F9    &kp F10   &kp F11   &kp F12  &trans
-   &trans  &kp N1    &kp N2    &kp N3     &trans     &trans    &kp F6                   &kp F7    &trans    &trans    &trans    &trans    &trans   &trans
-   &trans  &trans    &trans    &trans     &trans     &trans    &trans                   &trans    &trans    &trans    &trans    &trans    &trans   &trans
-   &trans  &trans    &trans    &bt BT_CLR &bt BT_NXT &trans    &trans &trans  &kp PG_UP &kp PG_DN &trans    &trans    &trans    &trans    &trans   &trans
-   &trans  &trans    &trans    &trans          &trans          &trans &trans  &trans    &trans       &trans           &trans    &trans    &trans   &trans
+   &trans  &kp F1      &kp F2      &kp F3      &kp F4      &kp F5                                       &kp F8    &kp F9    &kp F10        &kp F11      &kp F12  &trans
+   &trans  &bt BT_SEL0 &bt BT_SEL1 &bt BT_SEL2 &bt BT_SEL3 &bt BT_SEL4 &kp F6                   &kp F7    &trans    &trans    &trans       &trans       &kp C_PP &trans
+   &trans  &trans      &trans      &trans      &trans      &trans      &trans                   &trans    &trans    &trans    &trans       &trans       &trans   &trans
+   &trans  &trans      &bt BT_PRV  &bt BT_CLR  &bt BT_NXT  &trans      &trans &trans  &kp PG_UP &kp PG_DN &trans    &trans    &trans       &trans       &trans   &trans
+   &trans  &trans      &trans      &kp C_PREV         &kp C_NEXT       &trans &trans  &trans    &trans       &trans           &kp C_VOL_UP &kp C_VOL_DN &trans   &trans
             >;
         };
 
